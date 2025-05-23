@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    
+    <label for="chitti">Enter first name:</label>
+        <input type="text" id="bujji"><br><br>
+       
+        <div>
+        <label for="nam">Enter last name: </label>
+        <input type="text" placeholder="" id="nam">
+       </div>
+       <br>
+       <div>
+        <label for="em">Enter Email: </label>
+        <input type="email" placeholder="eg: xyz@gmail.com etc..," id="em">
+       </div><br>
+       <div>
+        <label for="em">Enter Password: </label>
+        <input type="password" placeholder="eg: xyz@gmail.com etc..," id="em">
+       </div><br>
+        <div>
+        <label for="ph">Enter mobile number: </label>
+        <input type="number" placeholder="" id="ph">
+       </div><br>
+       <form method="GET/POST"></form>
+        <input type="button" value="click me" />
+        <input type="radio"name="gender"id="m"value="Male"/>
+        <label for="m">male</label>
+        <input type="radio"name="gender"id="f"value="Female"/>
+        <label for="f">female</label>
+        <input type="checkbox"name="lang"id="en"value="English"/>
+        <label for="en">english</label>
+        <input type="checkbox"name="lang"id="te"value="Telugu"/>
+        <label for="te">telugu</label>
+        <input type="checkbox"name="lang"id="hi"value="Hindi"/>
+        <label for="te">hindi</label>
+        <select name="course"id=""multiple>
+        <option value="">select any course</option>
+            <optgroup label="programming">
+             <option value="java">Java</option>
+             <option value="python">python</option>
+             <option value="c#">c#</option>
+             <option value="js">javascript</option>
+             <option value="c">c programming</option>
+            </optgroup>
+        </option>
+            <optgroup label="database">
+                <option value="mysql">mysql</option>
+                <option value="mongodb">mongodb</option>
+            </optgroup>
+            <optgroup label="frontend">
+                <option value="react">react</option>
+                <option value="angular">angular</option>
+            </optgroup>
+        </select>
+        <form action="login.java">
+       <fieldset>
+        <legend>Login Form</legend>
+        <div>
+           <label for="em">Enter Email:</label>
+           <input type="email" name="em" id="em" />
+        </div><br>
+        <div>
+         <label for="pwd">Enter Password:</label>
+           <input type="password" name="pwd" id="pwd" />
+        </div><br>
+         <button>Login</button>
+        </fieldset>
+    </form>
+</body>
+</html>
